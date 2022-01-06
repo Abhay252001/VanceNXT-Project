@@ -7,9 +7,8 @@ import "./index.css";
 //   useRoutes,
 // } from "react-router-dom";
 
-
-
 const Form = () => {
+  
   // const [Title, setTitle] = useState('');
   // const [Body, setBody] = useState('');
   const [isAuth, setIsAuth] = useState(true);
@@ -99,5 +98,7 @@ const Form = () => {
     </div>
   );
 };
+
+
 
 export default Form;
